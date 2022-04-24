@@ -3,6 +3,9 @@
 - The images are intended to be used in environments where Docker is easily applicable and Python (especially venvs) is not.
 - One example of such an environment are Node.js projects, more specifically - [Hardhat](https://github.com/nomiclabs/hardhat) projects, where these images can be used by [Hardhat Docker plugin](https://www.npmjs.com/package/@nomiclabs/hardhat-docker).
 
+## Fork
+juste for use bash inside the docker for work in local
+
 ## Versions
 - Images built using the linux/amd64 architecture have names: `shardlabs/cairo-cli:<TAG>`.
 - Images built using the linux/arm64 architecture have names: `shardlabs/cairo-cli:<TAG>-arm`
